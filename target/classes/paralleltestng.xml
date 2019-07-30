@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="First" thread-count="4" parallel="tests">
+<test name="Second">
+<classes>
+<class name="selenium.ParallelTest"/>
+</classes>
+</test>
+
+<test name="Third">
+<classes>
+<class name="selenium.ParallelTest"/>
+</classes>
+</test>
+
+</suite>
